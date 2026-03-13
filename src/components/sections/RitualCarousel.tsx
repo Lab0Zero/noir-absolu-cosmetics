@@ -51,7 +51,7 @@ export default function RitualCarousel() {
   const ritual = rituals[active];
 
   return (
-    <section id="rituels" className="section-padding">
+    <section id="rituels" className="section-padding frame-light">
       <div className="container-site">
         <ScrollReveal>
           <div className="text-center mb-10 sm:mb-12 md:mb-16">

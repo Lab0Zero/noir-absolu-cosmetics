@@ -21,7 +21,7 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer className="bg-background-dark text-foreground-light">
+    <footer className="bg-background-dark text-foreground-light frame-dark">
       <div className="container-site py-12 sm:py-16 md:py-20 lg:py-28">
         {/* Top: Logo + tagline */}
         <div className="mb-12 md:mb-16 lg:mb-20">

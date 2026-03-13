@@ -182,6 +182,27 @@
     color: var(--color-foreground-secondary);
   }
 
+  /* Chanel-style thick border frame — black on white sections, white on dark sections */
+  .frame-light {
+    border: 6px solid #0A0A0A;
+  }
+  @media (min-width: 768px) {
+    .frame-light { border-width: 8px; }
+  }
+  @media (min-width: 1024px) {
+    .frame-light { border-width: 10px; }
+  }
+
+  .frame-dark {
+    border: 6px solid #FFFFFF;
+  }
+  @media (min-width: 768px) {
+    .frame-dark { border-width: 8px; }
+  }
+  @media (min-width: 1024px) {
+    .frame-dark { border-width: 10px; }
+  }
+
   .grain-overlay { position: relative; }
   .grain-overlay::after {
     content: "";

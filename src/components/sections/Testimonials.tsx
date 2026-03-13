@@ -41,7 +41,7 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <section className="section-padding-xl border-y border-border">
+    <section className="section-padding-xl border-y border-border frame-light">
       <div className="container-site">
         <ScrollReveal>
           <div className="max-w-3xl mx-auto text-center">

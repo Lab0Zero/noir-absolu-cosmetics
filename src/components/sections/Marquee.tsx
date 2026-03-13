@@ -13,7 +13,7 @@ const words = [
 
 export default function Marquee() {
   return (
-    <section className="py-8 sm:py-12 md:py-16 border-y border-border overflow-hidden">
+    <section className="py-8 sm:py-12 md:py-16 overflow-hidden frame-light">
       <div className="relative">
         <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-16 sm:w-24 md:w-32 bg-gradient-to-r from-white to-transparent" />
         <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-16 sm:w-24 md:w-32 bg-gradient-to-l from-white to-transparent" />

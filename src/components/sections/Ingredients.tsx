@@ -57,7 +57,7 @@ const fadeUp = {
 
 export default function Ingredients() {
   return (
-    <section className="section-padding bg-background-dark text-foreground-light grain-overlay">
+    <section className="section-padding bg-background-dark text-foreground-light grain-overlay frame-dark">
       <div className="container-site relative z-10">
         <ScrollReveal>
           <div className="text-center mb-10 sm:mb-12 md:mb-16">

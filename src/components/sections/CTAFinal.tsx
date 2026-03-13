@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CTAFinal() {
   return (
-    <section id="contact" className="section-padding-xl">
+    <section id="contact" className="section-padding-xl frame-light">
       <div className="container-site">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

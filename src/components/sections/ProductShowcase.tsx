@@ -52,7 +52,7 @@ const fadeUp = {
 
 export default function ProductShowcase() {
   return (
-    <section id="collections" className="section-padding">
+    <section id="collections" className="section-padding frame-light">
       <div className="container-site">
         {/* Header */}
         <ScrollReveal>

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden grain-overlay">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden grain-overlay frame-light">
       {/* Background decorative lines */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/4 w-px h-full bg-border/30" />

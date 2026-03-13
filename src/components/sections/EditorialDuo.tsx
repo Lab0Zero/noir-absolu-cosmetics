@@ -4,7 +4,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 
 export default function EditorialDuo() {
   return (
-    <section id="soins" className="section-padding bg-background-secondary">
+    <section id="soins" className="section-padding bg-background-secondary frame-light">
       <div className="container-site">
         <ScrollReveal>
           <h6 className="mb-6 sm:mb-8 text-center">L&apos;excellence</h6>
